@@ -19,7 +19,7 @@ public class NegativeResultActivity extends AppCompatActivity {
         Button btnAnalyseAgain = findViewById(R.id.btn_analyze_again);
 
         btnAnalyseAgain.setOnClickListener(l -> {
-            Intent intent = new Intent(NegativeResultActivity.this, MainActivity.class);
+            Intent intent = new Intent(NegativeResultActivity.this, FormActivity1.class);
             startActivity(intent);
         });
     }

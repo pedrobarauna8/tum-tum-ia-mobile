@@ -12,9 +12,11 @@ constraintlayout = "2.1.4"
 pmmlEvaluator = "1.5.15"
 pmmlEvaluatorVersion = "1.5.14"
 pmmlModel = "1.5.15"
+retrofit = "2.9.0"
 wekaStable = "3.8.0"
 
 [libraries]
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
 jaxb-api = { module = "javax.xml.bind:jaxb-api", version.ref = "jaxbApi" }
 jaxb-runtime = { module = "org.glassfish.jaxb:jaxb-runtime", version.ref = "jaxbRuntime" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -28,6 +30,7 @@ pmml-evaluator = { module = "org.jpmml:pmml-evaluator", version.ref = "pmmlEvalu
 pmml-evaluator-v1514 = { module = "org.jpmml:pmml-evaluator", version.ref = "pmmlEvaluatorVersion" }
 pmml-model = { module = "org.jpmml:pmml-model", version.ref = "pmmlEvaluatorVersion" }
 pmml-model-v1515 = { module = "org.jpmml:pmml-model", version.ref = "pmmlModel" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
 weka-stable = { module = "nz.ac.waikato.cms.weka:weka-stable", version.ref = "wekaStable" }
 
 [plugins]

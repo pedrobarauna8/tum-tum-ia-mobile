@@ -23,7 +23,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.FormActivity" />
+        <activity android:name=".activities.FormActivity1" />
+        <activity android:name=".activities.FormActivity2" />
         <activity android:name=".activities.PositiveResultActivity" />
         <activity android:name=".activities.NegativeResultActivity" />
     </application>

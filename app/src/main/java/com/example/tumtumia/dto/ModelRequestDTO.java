@@ -27,10 +27,10 @@ public class ModelRequestDTO {
                            Double insufficientBloodFlow,
                            String patternECG) {
         this.age = age;
-        this.gender = convertBoolean("M".equals(gender));
+        this.gender = convertBoolean("Masculino".equals(gender));
         this.bloodPressure = bloodPressure;
         this.cholesterol = cholesterol;
-        this.bloodGlucose = convertBoolean("Elevada (> 120 mg/dL)".equals(bloodGlucose));
+        this.bloodGlucose = convertBoolean("Normal (menor que 120 mg/dL)".equals(bloodGlucose));
         this.maxHR = maxHR;
         this.chestPainType = convertChestPainType(chestPainType);
         this.restECG = convertRestECG(ecg_repouso);
@@ -46,11 +46,11 @@ public class ModelRequestDTO {
     public static List<Integer> convertChestPainType(String chestPainType) {
         if ("Sem Dor".equals(chestPainType)) {
             return List.of(0, 0, 0);
-        } else if ("Dor no peito com aperto/pressão, que piora com esforço e melhora em repouso (Angina Típica)".equals(chestPainType)) {
+        } else if ("Angina Típica".equals(chestPainType)) {
             return List.of(1, 0, 0);
-        } else if ("Dor no Peito que não segue um padrão claro, mas pode ser difusa (Dor Não-Anginal)".equals(chestPainType)) {
+        } else if ("Dor Não-Anginal".equals(chestPainType)) {
             return List.of(0, 1, 0);
-        } else if ("Dor no peito que não está relacionada ao esforço, pode ser em outras áreas do tórax(Angina Atípica)".equals(chestPainType)) {
+        } else if ("Angina Atípica".equals(chestPainType)) {
             return List.of(0, 0, 1);
         } else {
             return List.of(0, 0, 0);

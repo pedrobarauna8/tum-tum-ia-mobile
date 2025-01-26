@@ -22,13 +22,13 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-public class FormActivity extends AppCompatActivity {
+public class FormActivity2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_form);
+        setContentView(R.layout.activity_form2);
 
         Spinner spChestPainType = findViewById(R.id.sp_chest_pain_type);
         Spinner spRestECG = findViewById(R.id.sp_rest_ECG);
@@ -80,10 +80,10 @@ public class FormActivity extends AppCompatActivity {
                     Intent intent = null;
 
                     if (Boolean.TRUE == result) {
-                        intent = new Intent(FormActivity.this, PositiveResultActivity.class);
+                        intent = new Intent(FormActivity2.this, NegativeResultActivity.class);
                     }
                     if (Boolean.FALSE == result) {
-                        intent = new Intent(FormActivity.this, NegativeResultActivity.class);
+                        intent = new Intent(FormActivity2.this, PositiveResultActivity.class);
                     }
 
                     startActivity(intent);

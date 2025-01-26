@@ -15,4 +15,6 @@
     <string name="negative_result_description">⚠️ Atenção: Risco Cardíaco Identificado\n\nNossa análise detectou potenciais indicadores de risco cardíaco.</string>
     <string name="analyse_again">Realizar Nova Análise</string>
     <string name="positive_result_description">✅ Resultado Favorável\n\nNão foram identificados indicadores significativos de risco cardíaco.</string>
+    <string name="analysis">Faça sua Análise</string>
+    <string name="big_description">Descubra seus riscos cardíacos em minutos\n\nAnálise personalizada usando Inteligência Artificial</string>
 </resources>

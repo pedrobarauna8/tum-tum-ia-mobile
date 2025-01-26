@@ -7,16 +7,18 @@
     </string-array>
     <string-array name="blood_glucose">
         <item>Glicemia em Jejum</item>
-        <item>Normal (≤ 120 mg/dL)</item>
-        <item>Elevada</item>
+        <item>Normal (menor que 120 mg/dL)</item>
+        <item>Elevada (maior que 120 mg/dl</item>
     </string-array>
     <string-array name="chest_pain_type_array">
+        <item>Tipo de Dor no Peito</item>
         <item>Sem Dor</item>
-        <item>Dor no peito com aperto/pressão, que piora com esforço e melhora em repouso (Angina Típica)</item>
-        <item>Dor no Peito que não segue um padrão claro, mas pode ser difusa (Dor Não-Anginal)</item>
-        <item>Dor no peito que não está relacionada ao esforço, pode ser em outras áreas do tórax (Angina Atípica)</item>
+        <item>Angina Típica</item>
+        <item>Dor Não-Anginal</item>
+        <item>Angina Atípica</item>
     </string-array>
     <string-array name="rest_ECG">
+        <item>ECG em Repouso</item>
         <item>Normal</item>
         <item>Anormalidade ST</item>
         <item>Hipertrofia VE</item>
@@ -27,6 +29,7 @@
         <item>Sim</item>
     </string-array>
     <string-array name="pattern_ECG">
+        <item>Padrão ECG</item>
         <item>Elevação Suave do Segmento ST</item>
         <item>Segmento ST Plano</item>
         <item>Depressão do Segmento ST</item>

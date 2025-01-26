@@ -1,10 +1,12 @@
 package com.example.tumtumia.config;
 
+import com.example.tumtumia.BuildConfig;
+
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ApiClient {
-    private static final String BASE_URL = "https://d749cbfd-1cb7-443d-a357-2ca12467bae9-00-oqcwle76j5vx.riker.replit.dev/"; // Substitua pela URL da sua API
+    private static final String BASE_URL = BuildConfig.BASE_URL;
     private static Retrofit retrofit;
 
     public static Retrofit getClient() {

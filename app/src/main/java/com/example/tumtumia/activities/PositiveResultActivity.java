@@ -19,7 +19,7 @@ public class PositiveResultActivity extends AppCompatActivity {
         Button btnAnalyzeAgain = findViewById(R.id.btn_analyze_again);
 
         btnAnalyzeAgain.setOnClickListener(l -> {
-            Intent intent = new Intent(PositiveResultActivity.this, MainActivity.class);
+            Intent intent = new Intent(PositiveResultActivity.this, FormActivity1.class);
             startActivity(intent);
         });
     }
