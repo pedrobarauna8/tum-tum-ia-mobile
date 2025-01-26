@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:paddingBottom="16dp"
+            android:text="@string/tumtum_ia"
+            android:textColor="@color/tumtum_ia"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_sub_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="-10dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:paddingBottom="16dp"
+            android:text="@string/description"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:text="@string/cardiac_exam"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/sp_chest_pain_type"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginTop="10dp"
+            android:entries="@array/chest_pain_type_array"
+            android:textColor="@color/black" />
+
+        <Spinner
+            android:id="@+id/sp_rest_ECG"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginTop="10dp"
+            android:entries="@array/rest_ECG"
+            android:textColor="@color/black" />
+
+        <Spinner
+            android:id="@+id/sp_exercise_angina"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginTop="10dp"
+            android:entries="@array/exercise_angina"
+            android:textColor="@color/black" />
+
+        <!-- Campo Double -->
+        <EditText
+            android:id="@+id/et_insufficient_blood_flow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:autofillHints="0.00"
+            android:hint="@string/insufficient_blood_flow"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
+
+        <Spinner
+            android:id="@+id/sp_ECG_pattern"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginTop="10dp"
+            android:entries="@array/pattern_ECG"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btn_rate_cardiac_risk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/tumtum_ia"
+            android:text="@string/rate_cardiac_risk"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</ScrollView>

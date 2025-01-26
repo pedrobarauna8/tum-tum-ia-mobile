@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TumTumIA</string>
+    <string name="rate_cardiac_risk">Avaliar Risco Cardíaco</string>
+    <string name="tumtum_ia">TumTum IA</string>
+    <string name="description">Previsão de Risco Cardíaco</string>
+    <string name="basic_data">Dados Básicos</string>
+    <string name="age">Idade</string>
+    <string name="vital_indicators">Indicadores Vitais</string>
+    <string name="blood_pressure">Pressão Arterial (mmHg)</string>
+    <string name="cholesterol">Colesterol LDL (mg/dL)</string>
+    <string name="max_HR">Frequencia Cardíaca Máxima</string>
+    <string name="resume">Prosseguir</string>
+    <string name="cardiac_exam">Exame Cardíaco</string>
+    <string name="insufficient_blood_flow">Insuficiência do Fluxo Sanguíneo</string>
+    <string name="negative_result_description">⚠️ Atenção: Risco Cardíaco Identificado\n\nNossa análise detectou potenciais indicadores de risco cardíaco.</string>
+    <string name="analyse_again">Realizar Nova Análise</string>
+    <string name="positive_result_description">✅ Resultado Favorável\n\nNão foram identificados indicadores significativos de risco cardíaco.</string>
+</resources>

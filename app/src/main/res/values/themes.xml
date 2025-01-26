@@ -1,0 +1,9 @@
+<resources>
+
+    <style name="Base.Theme.TumTumIA" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/tumtum_ia</item>
+        <item name="colorSecondary">@color/white</item>
+    </style>
+
+    <style name="Theme.TumTumIA" parent="Base.Theme.TumTumIA" />
+</resources>
